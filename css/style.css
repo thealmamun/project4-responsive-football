@@ -1,0 +1,156 @@
+/* google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:display=swap');
+
+
+
+/* common styles */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FAFAFA;
+    
+}
+
+.half-width{
+    width: 50%;
+}
+
+.fa{
+ color: white;
+}
+
+
+
+/* top header styles*/
+
+.top-header{
+    background-color: #2E2B9D;
+    height: 603px;
+    width: 100%;
+}
+
+.top, .promo{
+    display: flex;
+    margin-left: 156px;
+    margin-right: 124px;
+    padding-top:   42px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top>nav{
+   margin-left: 156;
+   margin-right: 124;
+
+}
+
+.top>nav>a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.action-btn{
+    background-color: #E02C6D;
+    height: 44px;
+    width: 123px;
+    color:white;
+    border-color: transparent;
+    border-style: solid;
+  
+}
+
+.promo-left h1{
+color: white;
+font-size: 64px;
+font-weight: 700;
+}
+
+.promo-right img{
+    width: 100%;
+}
+
+/* main styles */
+
+main{
+    
+    margin-top: 70px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player{
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+
+.player img, .highlights img{
+    width: 100%;
+}
+
+.player p{
+text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* highlights */
+
+.highlights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.highlights-left-area{
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.highlights-left-area h3{
+    font-size: 48px;
+    font-weight: 700;
+}
+.highlights-left-area p{
+    font-size: 16px;
+}
+
+.highlights-right-area img{
+    padding-top: 130px;
+}
+
+.footer-area{
+    background-color: white;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.footer-top img{
+    width: 483.87px;
+    height: 110px;
+    padding-top: 20px;
+
+}
+
+.footer-social>a>img{
+    Width : 32px;
+    Height :  32px;
+    padding:20px
+}
